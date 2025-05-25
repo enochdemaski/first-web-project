@@ -8,7 +8,7 @@
 }
 
 body {
-  /* background-color: red; */
+  background-color: red;
 }
 
 .fixed-image {
@@ -18,7 +18,8 @@ body {
   background-position: center;
   position: fixed;
   top: 30%;
-  width: 100%;
+  margin-left: 5%;
+  width: 90%;
   height: 60%;
   z-index: 1;
 }
@@ -92,10 +93,10 @@ body {
   color: #fff;
   text-transform: capitalize;
   text-align: center;
-  font-size: 3.5em;
+  font-size: 2.9em;
   font-weight: bold;
   width: 65%;
-  margin: 1em 18%;
+  margin: 1em 15%;
 }
 
 .sale {
@@ -111,10 +112,14 @@ body {
   border-radius: 50%;
   display: flex;
   align-items: center;
-  padding-left: 4%;
+  padding-left: 5%;
   position: absolute;
-  left: 74%;
-  bottom: 61%;
+  left: 65%;
+  bottom: 58%;
+}
+
+.percent-child {
+  font-size: 15px;
 }
 
 .time {
@@ -122,10 +127,10 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  font-size: 20px;
+  font-size: 16px;
   width: 19em;
   height: 13%;
-  margin: 5px;
+  /* margin: 5px; */
   margin: -10% auto;
 }
 
@@ -137,10 +142,11 @@ body {
   background-color: #c9184a;
   border: 1px solid #c9184a;
   color: #fff;
+  font-size: 2.5vw;
   font-weight: lighter;
   margin: 12% 35%;
   width: 10em;
-  height: 13%;
+  height: 12%;
   text-transform: uppercase;
 }
 
@@ -181,7 +187,7 @@ body {
   background-position: center;
   background-size: cover;
   height: 18em;
-  width: 17em;
+  width: 16em;
   margin: -5% 0;
   grid-column: 2/10;
   grid-row: 2/7;
@@ -543,7 +549,7 @@ button {
 
 .ex {
   font-size: 18px;
-  color: #cac9c9;
+  color: #000;
   margin: 5%;
 }
 
@@ -630,7 +636,7 @@ button {
 .footer-nav ul li:nth-child(4):hover {
   color: #fff;
 }
-@media (max-width: 575.98px) {
+@media (min-width: 575px) {
   /* .hero-section .percent {
     background-color: #c9184a;
     color: #fff;
@@ -649,13 +655,14 @@ button {
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   body {
-    /* background-color: blue; */
+    background-color: blue;
   }
 
-  .customize {
+  /* .customize {
     width: 18%;
     left: 83%;
-  }
+  } */
+
   /* For nav hamburger */
   .lines {
     width: 8%;
@@ -714,7 +721,9 @@ button {
     width: 22em;
     height: 13%;
     margin: 5px;
-    margin: 3% 17%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 3% 8%; */
   }
 
   .days {
