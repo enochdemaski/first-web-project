@@ -35,7 +35,7 @@ body {
   top: 47%;
   left: 81%;
   z-index: 9999;
-  /* display: none; */
+  display: none;
 }
 
 .first-section {
