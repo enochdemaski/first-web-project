@@ -9,7 +9,7 @@
 body,
 html {
   font-size: 100%;
-  /* background-color: yellowgreen; */
+  background-color: yellowgreen;
   height: 90vh;
 }
 
@@ -373,7 +373,7 @@ html {
 /* MEDIA QUERY */
 @media (max-width: 1200px) {
   body {
-    /* background-color: blue; */
+    background-color: blue;
     height: 100vh;
   }
   /* FIRST SECTION */
@@ -416,7 +416,7 @@ html {
 
 @media (max-width: 991px) {
   body {
-    /* background-color: aqua; */
+    background-color: aqua;
     height: 100vh;
   }
 
@@ -483,12 +483,8 @@ html {
 
 @media (max-width: 768px) {
   body {
-    /* background-color: brown; */
+    background-color: brown;
     height: 100vh;
-  }
-
-  .hero-section {
-    padding-top: 10%;
   }
 
   .percent {
@@ -517,7 +513,7 @@ html {
 
   /* SECOND SECTION */
   .second-section-layout {
-    height: 580px;
+    height: 100vh;
     grid-template-columns: repeat(1, 50%);
   }
 
@@ -543,7 +539,7 @@ html {
     width: 18em;
     padding-left: 0%;
     font-size: 2.9vw;
-    margin-top: 11em;
+    margin-top: 2%;
   }
 
   .second-section-layout4 {
@@ -562,11 +558,7 @@ html {
   /* THIRD SECTION */
 
   .third-section {
-    height: 150vh;
-  }
-
-  .third-section-details {
-    padding-top: 11%;
+    height: 180vh;
   }
   .third-section-details .text {
     width: 67%;
@@ -575,25 +567,23 @@ html {
 
   .third-section-details button {
     width: 18%;
-    margin-left: 40%;
   }
 
   .grid-container2 {
-    height: 100vh;
-    grid-template-columns: repeat(3, 1fr);
-    margin-top: 3%;
-    margin-left: 8%;
+    height: 160vh;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .box {
-    height: 10em;
-    width: 10em;
+    height: 9em;
+    margin: 1%;
+    margin-right: 0;
   }
 }
 
 @media (max-width: 617px) {
   body {
-    /* background-color: lime; */
+    background-color: lime;
     height: 100vh;
   }
 
@@ -614,13 +604,10 @@ html {
   .discover {
     font-size: 11px;
     margin-left: 35%;
-    width: 39%;
+    width: 32%;
   }
 
   /* SECOND SECTION */
-  .second-section-layout {
-    height: 580px;
-  }
   .second-section-layout1 {
     font-size: 3.9vw;
   }
@@ -638,10 +625,10 @@ html {
     height: 190vh;
   }
   .third-section-details {
-    height: 26%;
+    height: 68%;
   }
   .third-section-details .white-line {
-    margin-top: 4%;
+    margin-top: 15%;
   }
   .third-section-details .text {
     margin-top: 7%;
@@ -652,27 +639,18 @@ html {
 
   .third-section-details button {
     margin-top: 7%;
-    width: 27%;
+    width: 22%;
   }
 
   .third-section-details .text {
     width: 65%;
     font-size: 1.5em;
   }
-
-  .grid-container2 {
-    gap: 3px;
-
-    margin-left: 0;
-  }
-  .box {
-    width: 9em;
-  }
 }
 
 @media (max-width: 494px) {
   body {
-    /* background-color: steelblue; */
+    background-color: steelblue;
     height: 100vh;
   }
 
@@ -720,22 +698,19 @@ html {
 
 @media (max-width: 450px) {
   body {
-    /* background-color: tomato; */
+    background-color: tomato;
     height: 100vh;
   }
   .first-section {
-    margin: 0;
-    height: 65%;
+    height: 30%;
   }
   .black-friday {
-    width: 80%;
-    margin-left: 3%;
+    width: 76%;
+    margin-left: 11%;
     font-size: 23px;
   }
   .percent {
-    width: 3.8em;
   }
-
   .time {
     font-size: 10px;
     padding-left: 3px;
@@ -750,9 +725,6 @@ html {
   }
 
   /* SECOND SECTION */
-  .second-section-layout {
-    height: 560px;
-  }
   .second-section-layout1 {
     font-size: 93%;
     width: 18em;
@@ -775,12 +747,17 @@ html {
 
   /* THIRD SECTION */
 
+  .first-section {
+    margin: 0;
+    height: 55%;
+  }
+
   .third-section-details {
-    height: 23%;
+    height: 50%;
   }
 
   .third-section-details .white-line {
-    margin-top: -2%;
+    margin-top: 15%;
   }
   .third-section-details .text {
     font-size: 4.7vw;
@@ -801,10 +778,6 @@ html {
     margin-top: 7%;
   }
 
-  .grid-container2 {
-    grid-template-columns: repeat(2, 1fr);
-    height: 140vh;
-  }
   .box {
     width: 8em;
     box-sizing: border-box;
