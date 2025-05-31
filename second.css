@@ -1093,13 +1093,15 @@ html {
     height: 65%;
   }
   .black-friday {
-    width: 85%;
+    width: 98%;
+    margin-top: -10%;
     margin-left: 3%;
-    font-size: 34px;
+    font-size: 7vw;
   }
   .percent {
-    left: 70%;
-    width: 4em;
+    left: 80%;
+    bottom: 70%;
+    width: 6em;
   }
 
   .time {
@@ -1186,7 +1188,7 @@ html {
     font-size: 5vw;
   }
   .product-box {
-    width: 23em;
+    width: 17em;
     margin: 5px;
     border-radius: 5%;
   }
