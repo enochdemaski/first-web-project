@@ -1184,5 +1184,10 @@ html {
 
   .free {
     font-size: 3.4vw;
+    margin-left: 5%;
+  }
+
+  .ex {
+    margin-left: 5%;
   }
 }
