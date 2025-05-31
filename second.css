@@ -10,7 +10,7 @@ body,
 html {
   font-size: 100%;
   /* background-color: yellowgreen; */
-  height: 90vh;
+  height: 100vh;
 }
 
 /* .fixed-image {
@@ -292,7 +292,7 @@ html {
 }
 
 .box {
-  height: 11em;
+  height: 9em;
   margin: 2%;
   border-radius: 10%;
 }
@@ -367,6 +367,260 @@ html {
   background-position: center;
   background-size: cover;
   height: 20em;
+}
+
+/* FOURTH SECTION */
+
+.fourth-section {
+  background-image: url("./01-bg-grunge.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15%;
+}
+
+.fourth-section-details {
+}
+
+.white-line2 {
+  width: 5%;
+  background-color: #fff;
+  height: 3px;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fourth-section-details .text {
+  color: #fff;
+  font-size: 4vw;
+  width: 58%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.boxcontainer {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  margin-top: 4%;
+}
+
+.product-box {
+  border-radius: 4%;
+  width: 40%;
+  height: 365px;
+  margin: 1%;
+}
+
+.product-box:hover {
+}
+
+.product1 {
+  background-image: url("./shop-men-img.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.product2 {
+  background-image: url("./shop-women-img.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.product-box p {
+  color: #fff;
+  font-size: 2vw;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.product-box h4 {
+  color: #fff;
+  font-size: 2.6vw;
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-box button {
+  margin: 3% 35%;
+  background-color: #808080;
+  border: 1px solid transparent;
+  border-radius: 4%;
+  color: #fff;
+  outline: none;
+  width: 30%;
+  height: 45px;
+}
+
+.product-box button:hover {
+  background-color: #fff;
+  color: #000;
+  transition: 0.7s ease;
+  cursor: pointer;
+}
+
+/* FIFTH SECTION */
+.fifth-section {
+  background-color: #00000080;
+  margin-top: 15%;
+}
+
+.fifth-flex-container {
+  display: flex;
+  flex-direction: column;
+}
+.fifth-details {
+}
+
+.fifth-details .quote {
+  color: #fff;
+  font-size: 10vw;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2%;
+}
+
+.fifth-details .fifth-text {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1.3vw;
+  width: 70%;
+  color: #fff;
+}
+
+.fifth-name {
+  color: #808080;
+  text-transform: capitalize;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.fifth-image {
+  background-color: #ff3c00;
+  background-image: url("./testimonials-img\ \(1\).jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+  width: 88%;
+  height: 27em;
+  margin: 2% 5%;
+}
+
+.head-text {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.free {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 2vw;
+  margin-left: 20%;
+}
+
+.ex {
+  color: #000;
+  width: 70%;
+  margin: 2% 20%;
+}
+
+.payment {
+  margin-top: 3%;
+}
+
+.tracking {
+  margin-top: 3%;
+}
+
+.return {
+  margin-top: 3%;
+}
+
+/* SIXTH SECTION */
+.sixth-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  margin-top: 15%;
+}
+.deals {
+  height: 98vh;
+  border-bottom: 2px solid #a9a9a9;
+}
+.footer-line {
+  width: 5%;
+  background-color: #fff;
+  height: 3px;
+  margin-top: 13%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.deals h1 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 3vw;
+  width: 50%;
+  color: #fff;
+}
+
+.deals p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 2%;
+  font-size: 1.3vw;
+  width: 70%;
+  color: #fff;
+}
+
+.deals button {
+  margin: 3% 43%;
+  background-color: #808080;
+  border: 1px solid transparent;
+  text-transform: capitalize;
+  border-radius: 4%;
+  color: #fff;
+  outline: none;
+  width: 12%;
+  height: 50px;
+}
+.footer-nav {
+  display: flex;
+  gap: 10%;
+  width: 17em;
+  color: #fff;
+  text-transform: capitalize;
+  list-style: none;
+  margin-left: 35em;
+  font-size: 19px;
+  display: none;
+}
+
+.footer-nav ul li {
+  list-style: none;
+  margin-top: 2em;
+}
+
+.footer-nav li:hover {
+  color: #fdfcfc4f;
+  cursor: pointer;
+}
+
+.footer-nav li:nth-child(1):hover {
+  color: #fff;
 }
 
 /* ------------------------------------------------------------------------------------------------------ */
@@ -479,6 +733,29 @@ html {
   .box8 {
     height: 15em;
   }
+
+  /* FOURTH SECTION */
+
+  .product-box p {
+    margin-top: 27%;
+  }
+
+  /* FIFTH SECTION */
+
+  .head-text {
+    grid-template-columns: repeat(2, 50%);
+  }
+
+  .fifth-details .fifth-text {
+    font-size: 2vw;
+    width: 90%;
+  }
+
+  /* SIXTH SECTION */
+
+  .footer-line {
+    margin-top: 25%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -589,6 +866,34 @@ html {
     height: 10em;
     width: 10em;
   }
+
+  /* FOURTH SECTION */
+  .boxcontainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .product-box {
+    width: 50%;
+  }
+
+  /* FIFTH SECTION */
+  .fifth-details .fifth-text {
+    font-size: 2.5vw;
+    width: 90%;
+  }
+
+  /* SIXTH SECTION */
+
+  .deals p {
+    font-size: 1.6vw;
+  }
+
+  .deals button {
+    width: 20%;
+    margin-left: 37%;
+  }
 }
 
 @media (max-width: 617px) {
@@ -668,6 +973,41 @@ html {
   .box {
     width: 9em;
   }
+
+  /* FOURTH SECTION */
+  .product-box p {
+    margin-top: 38%;
+    font-size: 2.9vw;
+  }
+
+  .product-box button {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  /* FIFTH SECTION */
+  .head-text {
+    grid-template-columns: repeat(1, 98%);
+  }
+  .fifth-details .fifth-text {
+    font-size: 3vw;
+    width: 80%;
+  }
+
+  .free {
+    font-size: 3vw;
+  }
+
+  /* SIXTH SECTION */
+
+  .deals p {
+    font-size: 1.8vw;
+  }
+
+  .deals button {
+    width: 20%;
+    margin-left: 37%;
+  }
 }
 
 @media (max-width: 494px) {
@@ -715,6 +1055,27 @@ html {
   .third-section-details button {
     width: 25%;
     margin-left: 38%;
+  }
+
+  /* FIFTH SECTION */
+  .fifth-details .fifth-text {
+    font-size: 3vw;
+    width: 80%;
+  }
+
+  .free {
+    font-size: 3vw;
+  }
+
+  /* SIXTH SECTION */
+
+  .footer-nav ul li {
+    list-style: none;
+    margin-top: 2em;
+    margin-left: 40%;
+  }
+  .footer-nav {
+    display: contents;
   }
 }
 
@@ -808,5 +1169,20 @@ html {
   .box {
     width: 8em;
     box-sizing: border-box;
+  }
+
+  /* FOURTH SECTION */
+  .product-box p {
+    margin-top: 50%;
+    font-size: 3vw;
+  }
+  /* FIFTH SECTION */
+  .fifth-details .fifth-text {
+    font-size: 3vw;
+    width: 80%;
+  }
+
+  .free {
+    font-size: 3.4vw;
   }
 }
