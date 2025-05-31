@@ -1085,7 +1085,7 @@ html {
 
 @media (max-width: 450px) {
   body {
-    /* background-color: tomato; */
+    background-color: tomato;
     height: 100vh;
   }
   .first-section {
@@ -1093,12 +1093,13 @@ html {
     height: 65%;
   }
   .black-friday {
-    width: 80%;
+    width: 85%;
     margin-left: 3%;
-    font-size: 23px;
+    font-size: 34px;
   }
   .percent {
-    width: 3.8em;
+    left: 70%;
+    width: 4em;
   }
 
   .time {
@@ -1176,9 +1177,29 @@ html {
   }
 
   /* FOURTH SECTION */
+  .white-line2 {
+    margin-top: 5%;
+    width: 15%;
+  }
+  .fourth-section-details .text {
+    margin-top: 5%;
+    font-size: 5vw;
+  }
+  .product-box {
+    width: 25em;
+    border-radius: 5%;
+  }
   .product-box p {
-    margin-top: 50%;
-    font-size: 3vw;
+    margin-top: 30%;
+    font-size: 4.7vw;
+  }
+
+  .product-box h4 {
+    font-size: 5vw;
+  }
+
+  .product-box button {
+    height: 4em;
   }
   /* FIFTH SECTION */
   .fifth-details .fifth-text {
