@@ -1099,9 +1099,15 @@ html {
     font-size: 7vw;
   }
   .percent {
-    left: 80%;
-    bottom: 70%;
+    border-radius: 50em;
+    left: 70%;
+    top: -8%;
     width: 6em;
+  }
+
+  .percent-child {
+    padding-top: 10%;
+    padding-left: 8px;
   }
 
   .time {
@@ -1208,6 +1214,11 @@ html {
   .fifth-details .fifth-text {
     font-size: 3vw;
     width: 80%;
+  }
+
+  .fifth-image {
+    width: 20em;
+    margin-left: 9%;
   }
 
   .free {
